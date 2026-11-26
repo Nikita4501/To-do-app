@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To-do</string>
+
+    <string name="editor_title">Задача</string>
+    <string name="done_title">Выполненные</string>
+    <string name="share_receiver_title">Новая задача</string>
+
+    <string name="menu_done">Выполненные</string>
+
+    <string name="hint_title">Название задачи</string>
+    <string name="hint_description">Описание</string>
+    <string name="description_counter">%1$d/%2$d</string>
+    <string name="zero_counter">0/200</string>
+    <string name="error_empty_title">Введите название</string>
+    <string name="priority_label">Приоритет</string>
+    <string name="no_due_date">Срок не выбран</string>
+
+    <string name="save">Сохранить</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="pick_date">Выбрать срок</string>
+    <string name="clear_date">Убрать срок</string>
+    <string name="due_date_label">Срок: %1$s</string>
+
+    <string name="priority_high">Высокий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_low">Низкий</string>
+
+    <string name="overdue">Просрочено</string>
+    <string name="due_date_short">до %1$s</string>
+
+    <string name="empty_active">Задач нет.\nНажмите «+», чтобы добавить первую.</string>
+    <string name="empty_done">Выполненных задач пока нет.</string>
+
+    <string name="checkbox_done">Отметить выполненной</string>
+    <string name="empty_share_text">Получен пустой текст — задача не создана</string>
+    <string name="toggle_theme">Тёмная тема</string>
+    <string name="toggle_theme_light">Светлая тема</string>
+</resources>

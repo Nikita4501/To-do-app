@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="green_check" type="color">#FF4CAF50</item>
+    <item name="delete_red" type="color">#FFB3261E</item>
+    <item name="delete_red_bg" type="color">#33B3261E</item>
+    <item name="swipe_bg" type="color">#FFB3261E</item>
+</resources>

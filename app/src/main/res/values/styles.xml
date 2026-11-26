@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Todo.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Todo.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.Todo.Overdue" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Todo.Badge" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Todo.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="android:layout_marginHorizontal">@dimen/card_margin_h</item>
+        <item name="android:layout_marginVertical">@dimen/card_margin_v</item>
+    </style>
+
+    <style name="Widget.Todo.PriorityChip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="Widget.Todo.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/card_corner</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/card_corner</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/card_corner</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/card_corner</item>
+        <item name="counterTextColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="Widget.Todo.CounterText" parent="">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:paddingTop">@dimen/counter_padding_top</item>
+        <item name="android:gravity">end</item>
+    </style>
+</resources>
